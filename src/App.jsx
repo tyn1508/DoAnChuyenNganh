@@ -67,7 +67,6 @@ function App() {
               <ListFilm title={"Phim hot"} data={toprate} />
             </>
           )}
-
         </div>
       </FilmProvider>
 
