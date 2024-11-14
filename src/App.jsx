@@ -4,6 +4,9 @@ import Banner from "./components/Banner"
 import ListFilm from "./components/ListFilm"
 import SearchFilm from "./components/SearchFilm"
 import { FilmProvider } from "./context/FilmProvider"
+
+// import { SpeedInsights } from "@vercel/speed-insights/react"
+
 function App() {
   const [film, setFilm] = useState([]);
   const [toprate, setTopRate] = useState([]);
@@ -67,10 +70,8 @@ function App() {
               <ListFilm title={"Phim hot"} data={toprate} />
             </>
           )}
-
         </div>
       </FilmProvider>
-
     </>
   )
 }
